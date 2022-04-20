@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "geekhallutils": "^1.0.0",
+    "moment": "^2.29.2",
+    "require.js": "^1.0.0"
+  },
+  "name": "nodedemo",
+  "version": "1.0.0",
+  "description": "NodeJS demo",
+  "main": "app.js",
+  "devDependencies": {
+    "webpack": "^5.72.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
