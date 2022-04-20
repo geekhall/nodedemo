@@ -16,6 +16,8 @@ interface IAnimal {
 }
 
 function getIBear(): IBear {
+  // return <IBear>{};
+  // or
   return {} as IBear;
 }
 const iBear: IBear = getIBear();
