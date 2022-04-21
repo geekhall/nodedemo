@@ -1,8 +1,8 @@
 // Function Type Expressions
-function greeter(fn) {
+function greeter1(fn) {
     fn("Hello, TypeScript");
 }
-function printToConsole(s) {
+function printToConsole1(s) {
     console.log(s);
 }
-greeter(printToConsole);
+greeter1(printToConsole1);

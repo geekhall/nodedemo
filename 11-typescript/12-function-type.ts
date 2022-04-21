@@ -1,12 +1,12 @@
 // Function Type Expressions
-function greeter(fn: (a:string) => void){
+function greeter1(fn: (a:string) => void){
   fn("Hello, TypeScript")
 }
 
-function printToConsole(s: string) {
+function printToConsole1(s: string) {
   console.log(s);
 }
 
-greeter(printToConsole)
+greeter1(printToConsole1)
 
 
